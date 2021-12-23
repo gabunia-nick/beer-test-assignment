@@ -1,0 +1,24 @@
+:root {
+  --header-height: 80px;
+  --footer-height: 80px;
+
+  @include desktop {
+    --header-height: 110px;
+    --footer-height: 110px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: var(--header-height) auto var(--footer-height) auto;
+  max-width: $breakpoint-desktop-large;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  width: 100%;
+}

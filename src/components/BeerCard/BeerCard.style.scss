@@ -1,0 +1,24 @@
+.BeerCard {
+  border: 2px solid $color-purple;
+  border-radius: 30px;
+  display: flex;
+  min-height: 130px;
+  padding: 15px 25px;
+
+  &-ImageContainer {
+    height: 130px;
+    text-align: center;
+    width: 130px;
+  }
+
+  &-Image {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  &-Content {
+    flex: 1;
+    text-align: center;
+  }
+}

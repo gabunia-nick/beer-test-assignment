@@ -1,0 +1,35 @@
+// Colors
+$color-grey: #5c5c5c;
+$color-dark-grey: #222222;
+$color-purple: rgb(163, 100, 235);
+
+// Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-big: 10280px;
+$breakpoint-desktop-large: 1440px;
+
+// Media query mixins
+@mixin tablet {
+    @media (min-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}
+
+@mixin desktop-big {
+    @media (min-width: $breakpoint-desktop-big) {
+        @content;
+    }
+}
+
+@mixin desktop-large {
+    @media (min-width: $breakpoint-desktop-large) {
+        @content;
+    }
+}

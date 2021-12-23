@@ -1,0 +1,16 @@
+.Header {
+  align-items: center;
+  background-color: $color-grey;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  min-height: var(--header-height);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &-Title {
+    color: $color-dark-grey;
+    text-transform: uppercase;
+  }
+}

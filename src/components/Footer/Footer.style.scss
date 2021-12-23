@@ -1,0 +1,16 @@
+.Footer {
+  align-items: center;
+  background-color: $color-grey;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  min-height: var(--header-height);
+  position: fixed;
+  width: 100%;
+
+  &-Title {
+    color: $color-dark-grey;
+    text-transform: uppercase;
+  }
+}

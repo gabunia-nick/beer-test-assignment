@@ -1,0 +1,14 @@
+.BeerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+
+  .BeerCard {
+    margin-bottom: 15px;
+
+    @include desktop {
+      width: calc(50% - 15px);
+    }
+  }
+}
