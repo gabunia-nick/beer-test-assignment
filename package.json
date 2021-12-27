@@ -28,7 +28,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
+    "test": "craco test --testPathIgnorePatterns=.*e2e.test.ts",
+    "test:e2e": "craco test --testPathPattern=.*e2e.test.ts",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -56,6 +57,7 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "msw": "^0.36.3",
-    "pretty": "^2.0.0"
+    "pretty": "^2.0.0",
+    "puppeteer": "^13.0.1"
   }
 }

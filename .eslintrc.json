@@ -19,7 +19,7 @@
         "react",
         "@typescript-eslint"
     ],
-    "ignorePatterns": ["**/*.test.tsx"],
+    "ignorePatterns": ["**/*.test.ts*"],
     "rules": {
         "no-restricted-exports": 0,
         "react/function-component-definition": [2, {
@@ -27,7 +27,9 @@
         }],
         "react/jsx-filename-extension": [2, {
             "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "import/extensions": 0
+        "import/extensions": 0,
+        "react/react-in-jsx-scope": 0,
+        "linebreak-style": 0
     },
     "settings": {
         "import/resolver": {

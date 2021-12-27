@@ -6,6 +6,7 @@
 
   .BeerCard {
     margin-bottom: 15px;
+    width: 100%;
 
     @include desktop {
       width: calc(50% - 15px);
