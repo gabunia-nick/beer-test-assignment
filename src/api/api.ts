@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { API_BASE_URL, API_RANDOM_BEER } from './api.config';
 import { BeerResponse } from './types/BeerResponse.type';
-
-export const API_BASE_URL = 'https://api.punkapi.com/v2/';
 
 export const beerApi = createApi({
   reducerPath: 'beerReducer',
@@ -15,7 +14,8 @@ export const beerApi = createApi({
             return resArr;
           }
 
-          const requestPromiseArray = Array(beerNumber).fill(null).map(() => fetchWithBQ('beers/random'));
+          const requestPromiseArray = Array(number).fill(null)
+            .map(() => fetchWithBQ(API_RANDOM_BEER));
           const result = await Promise.all(requestPromiseArray);
 
           const newResArr = result.reduce((acc, curr) => {

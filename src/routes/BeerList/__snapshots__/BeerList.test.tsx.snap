@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerList content is being rendered correctly 1`] = `
+"[36m<main[39m
+  [33mclass[39m=[32m\\"BeerList\\"[39m
+  [33mdata-testid[39m=[32m\\"beerlist-element\\"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-Content\\"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Tagline\\"[39m
+      [36m>[39m
+        [0mThe most bitter beer you can eve drink[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m\\"BeerCard-Name\\"[39m
+      [36m>[39m
+        [0mImperial Stout[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"BeerCard\\"[39m
+    [33mdata-testid[39m=[32m\\"beercard-element\\"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m\\"BeerCard-ImageContainer\\"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m\\"Imperial Stout\\"[39m
+        [33mclass[39m=[32m\\"BeerCard-Image\\"[39m
+        [33msrc[39m=[32m\\"https://image.shutterstock.com/image-photo/beer-600w-617336486.jpg\\"[39m
+      [36m/>[39m
+    [36m</div>[39m
+    [3..."
+`;

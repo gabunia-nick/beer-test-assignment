@@ -8,7 +8,7 @@ const BeerListComponent = () => {
   const { data, error, isLoading } = useGetRandomBeersQuery(30);
 
   return (
-    <main className="BeerList">
+    <main className="BeerList" data-testid="beerlist-element">
       {isLoading && <p className="BeerList-LoadingMessage">Loading...</p>}
       {error && <p className="BeerList-ErrorMessage">Oops... Something went wrong</p>}
       {(!data && !error && !isLoading) && <p className="BeerList-NoResults">Unfortunately no beers were found</p>}

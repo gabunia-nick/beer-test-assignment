@@ -8,13 +8,13 @@ const BeerCardComponent: React.FunctionComponent<IBeerCardComponentProps> = ({
   tagline,
   imageUrl,
 }) => (
-  <div className="BeerCard">
+  <div className="BeerCard" data-testid="beercard-element">
     <div className="BeerCard-ImageContainer">
       <img className="BeerCard-Image" alt={name} src={imageUrl} />
     </div>
     <div className="BeerCard-Content">
       <p className="BeerCard-Tagline">{tagline}</p>
-      <p className="BeerdCard-Name">{name}</p>
+      <p className="BeerCard-Name">{name}</p>
     </div>
   </div>
 );
